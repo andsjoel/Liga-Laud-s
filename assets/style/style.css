@@ -222,11 +222,10 @@ span{
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .timesContent{
-  margin-top: 150px;
+  margin-top: 25%;
   width: 90%;
   overflow: hidden;
 }
@@ -303,4 +302,41 @@ span{
 
 input {
   display: none;
+}
+
+
+/* TABLE ------------------------------- */
+
+#bodyChaves{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(128, 109, 158);
+  color: white;
+}
+
+table,
+th,
+td {
+	border: 1px solid rgb(255, 255, 255);
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+td{
+	padding: 8px 15px;
+}
+
+#tableContent{
+  margin-top: 90px;
+  padding: 10px;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+table{
+  background-color: rgb(73, 49, 112);
 }
